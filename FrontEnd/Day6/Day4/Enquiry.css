@@ -1,0 +1,60 @@
+.eventForm {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #E6E6FA; /* Light purple background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formTitle {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.inputField,
+.selectField,
+.textareaField {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.textareaField {
+  height: 100px;
+  resize: vertical;
+}
+
+.termsContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkboxField {
+  margin-right: 10px;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #B19CD9; /* Light purple button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: #9B30FF; /* Slightly darker purple on hover */
+}
+
+.submitBtn:active {
+  background-color: #7D26CD; /* Even darker purple on click */
+}
